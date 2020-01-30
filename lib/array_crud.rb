@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  arr.push["pink"]
+  arr.push{"pink"}
 end
 
 def add_element_to_start_of_array(array, element)
-  arr.unshift["purple"]
+  arr.unshift{"purple"}
 end
 
 def remove_element_from_end_of_array(array)
@@ -27,9 +27,9 @@ def retrieve_element_from_index(array, index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  favorite_colors[1]
+  arr[1]
 end
 
 def retrieve_last_element_from_array(array)
-  favorite_colors[3]
+  arr[3]
 end
